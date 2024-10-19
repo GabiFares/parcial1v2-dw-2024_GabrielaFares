@@ -20,9 +20,9 @@ export const create = async (
   descripcion: string
 ) => {
   const query = `
-    INSERT INTO public.comentarios(id_tema,id_usuario,descripcion)
-    VALUES ($1,$2,$3)
-  `;
+      INSERT INTO public.comentarios(id_tema,id_usuario,descripcion)
+      VALUES ($1,$2,$3)
+    `;
   await db.query(query, [id_tema, id_usuario, descripcion]);
   return findAll(id_tema);
 };

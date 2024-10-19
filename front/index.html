@@ -1,1 +1,28 @@
-Index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Log in</title>
+  </head>
+
+  <body>
+    <form class="LogInForm" id="LogInForm">
+      <h1>Log in</h1>
+      <div class="divinput">
+        <label>Username</label>
+        <input type="username" id="username" name="username" />
+        <small></small>
+      </div>
+      <div class="divinput">
+        <label>Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" />
+        <small></small>
+      </div>
+      <button type="submit" id="loginButton">Iniciar Sesión</button>
+    </form>
+    <script type="module" src="login.js"></script>
+    <script type="module" src="auth/auth.js"></script>
+  </body>
+</html>

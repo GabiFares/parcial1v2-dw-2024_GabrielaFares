@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.LogInForm {
+    font-size: "Inter", sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.divinput {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    height: 25px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
+
+.divinputerror input {
+    border-color: red;
+    color: red;
+}
+
+.divinputerror small {
+    color: red;
+}

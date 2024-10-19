@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.newTareaBtn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newTareaBtn:hover {
+  color: white;
+  background-color: green;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 2px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr {
+  background-color: #2c2c2c;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.delete-btn {
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addUser-btn {
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seeComents-btn {
+  background-color: wheat;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn img,
+.delete-btn img,
+.addUser-btn img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dialog-buttons button {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+#botoncerrar {
+  border-radius: 15px;
+  background-color: white;
+  font-family: inherit;
+  color: black;
+  width: 25%;
+  padding: 10px;
+  transition-duration: 0.4s;
+}
+
+#botoncerrar:hover {
+  background-color: #ef0107;
+  color: white;
+}
